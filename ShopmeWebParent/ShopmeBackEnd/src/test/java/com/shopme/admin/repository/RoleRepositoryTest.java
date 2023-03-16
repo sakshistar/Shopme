@@ -2,12 +2,10 @@ package com.shopme.admin.repository;
 
 import com.shopme.common.entity.Role;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
-import org.junit.jupiter.api.Assertions.*;
 import org.springframework.test.annotation.Rollback;
 
 import java.util.List;
